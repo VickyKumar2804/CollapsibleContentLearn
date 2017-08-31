@@ -19,7 +19,8 @@ function autoload() {
 	$files = array(
 		'custom/post-type.php',
 		'custom/taxonomy.php',
-		'shortcode/shortcode.php'
+		'shortcode/shortcode.php',
+		'templates/helpers.php'
 
 	);
 	foreach ( $files as $file ) {
